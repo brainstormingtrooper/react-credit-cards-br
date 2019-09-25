@@ -1,0 +1,36 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "useBuiltIns": true,
+        "modules": false
+      }
+    ],
+    "react",
+    "stage-1"
+  ],
+  "env": {
+    "production": {
+      "plugins": [
+        "array-includes",
+        "transform-flow-strip-types",
+        "transform-object-assign"
+      ]
+    },
+    "commonjs": {
+      "plugins": [
+        "array-includes",
+        ["transform-es2015-modules-commonjs", { "loose": true }],
+        "transform-flow-strip-types",
+        "transform-object-assign"
+      ]
+    },
+    "test": {
+      "plugins": [
+        "transform-es2015-modules-commonjs"
+      ],
+      "sourceMaps": "both"
+    }
+  }
+}
