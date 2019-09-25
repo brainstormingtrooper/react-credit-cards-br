@@ -106,7 +106,7 @@
     "stylelint-scss": "^2.2.0",
     "watch-run": "^1.2.5",
     "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.9.7",
+    "webpack-dev-server": "^3.1.11",
     "webpack-merge": "^4.1.1",
     "webpack-node-externals": "^1.6.0",
     "yargs": "^10.0.3"
