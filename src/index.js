@@ -178,7 +178,6 @@ class ReactCreditCards extends React.Component {
 
   updateType(number) {
     const { callback } = this.props;
- 
     let typeCard = 'unknown';
 
     const cardObject = creditCardType(number);
