@@ -1,7 +1,7 @@
 {
-  "name": "react-credit-cards",
-  "version": "0.7.0",
-  "description": "Beautiful credit cards for your payment forms",
+  "name": "react-credit-cards-br",
+  "version": "0.7.1",
+  "description": "a forked version of react-credit-cards",
   "author": "AMARO Fashion <it@amaro.com>",
   "contributors": [
     {
@@ -15,12 +15,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amarofashion/react-credit-cards.git"
+    "url": "git+https://github.com/brainstormingtrooper/react-credit-cards.git"
   },
   "bugs": {
-    "url": "https://github.com/amarofashion/react-credit-cards/issues"
+    "url": "https://github.com/brainstormingtrooper/react-credit-cards.git/issues"
   },
-  "homepage": "https://github.com/amarofashion/react-credit-cards#readme",
+  "homepage": "https://github.com/brainstormingtrooper/react-credit-cards.git#readme",
   "license": "MIT",
   "main": "lib/index.js",
   "module": "es/index.js",
