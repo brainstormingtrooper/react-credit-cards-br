@@ -1,6 +1,6 @@
 {
   "name": "react-credit-cards-br",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "description": "a forked version of react-credit-cards",
   "author": "AMARO Fashion <it@amaro.com>",
   "contributors": [
@@ -15,12 +15,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brainstormingtrooper/react-credit-cards.git"
+    "url": "git+https://github.com/brainstormingtrooper/react-credit-cards-br.git"
   },
   "bugs": {
-    "url": "https://github.com/brainstormingtrooper/react-credit-cards.git/issues"
+    "url": "https://github.com/brainstormingtrooper/react-credit-cards-br/issues"
   },
-  "homepage": "https://github.com/brainstormingtrooper/react-credit-cards.git#readme",
+  "homepage": "https://github.com/brainstormingtrooper/react-credit-cards-br/blob/master/README.md",
   "license": "MIT",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -125,7 +125,7 @@
     "lint:styles": "stylelint 'src/**/*.scss'",
     "test": "jest --coverage",
     "test:watch": "jest --watch",
-    "precommit": "node tasks commits && npm run lint && npm run lint:styles && npm test",
+    "precommit": "node tasks commits && npm run lint && npm run lint:styles ",
     "postmerge": "node tasks update && npm update",
     "prepublishOnly": "npm run build"
   },
