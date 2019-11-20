@@ -190,25 +190,12 @@ class ReactCreditCards extends React.Component {
       typeCard = type;
     }
 
-    switch (typeCard) {
-      case 'diners-club':
-        typeCard = 'dinersclub';
-        break;
-
-      case 'american-express':
-        typeCard = 'amex';
-        break;
-
-      default:
-        break;
-    }
-
     let maxLength = 16;
 
-    if (typeCard === 'amex') {
+    if (typeCard === 'american-express') {
       maxLength = 15;
     }
-    else if (typeCard === 'dinersclub') {
+    else if (typeCard === 'diners-club') {
       maxLength = 14;
     }
     else if (['hipercard', 'mastercard', 'visa'].includes(typeCard)) {
