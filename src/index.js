@@ -108,7 +108,7 @@ class ReactCreditCards extends React.Component {
       nextNumber += '•';
     }
 
-    if (['amex', 'dinersclub'].includes(this.issuer)) {
+    if (['american-express', 'diners-club'].includes(this.issuer)) {
       const format = [0, 4, 10];
       const limit = [4, 6, 5];
       nextNumber = `${nextNumber.substr(format[0], limit[0])} ${nextNumber.substr(format[1], limit[1])} ${nextNumber.substr(format[2], limit[2])}`;
@@ -225,7 +225,7 @@ class ReactCreditCards extends React.Component {
           className={[
             'rccs__card',
             `rccs__card--${this.issuer}`,
-            focused === 'cvc' && this.issuer !== 'amex' ? 'rccs__card--flipped' : '',
+            focused === 'cvc' && this.issuer !== 'american-express' ? 'rccs__card--flipped' : '',
           ].join(' ').trim()}
         >
           <div className="rccs__card--front">
